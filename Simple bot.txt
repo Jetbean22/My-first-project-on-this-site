@@ -1,0 +1,12 @@
+questions_name = input('What is your name?: ')
+print('Greetings, ' + questions_name)
+questions_mood = input('How do you feel?: ')
+if questions_mood == "Fine":
+    print('Perhaps it will be even better;)')
+elif questions_mood == "More less":
+    print('I think your mood can be improved by relaxing from problems with your favorite and useful thing. ')
+    print('Just try it :)')
+elif questions_mood == "Not really":
+    fix_problem = input("Сan I help you with something?: ")
+    if fix_problem == 'Maybe' or 'Ok, advise me something':
+        print("If you are still busy, you can turn on soft music."'\n'"If you have already finished your job, you can do something entertaining or useful (watching a movie, reading books, hobbies, etc.)"'\n'"Good luck;)")
